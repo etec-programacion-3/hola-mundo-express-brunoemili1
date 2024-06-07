@@ -16,5 +16,5 @@ app.listen(3000, () => {
 
 app.get('/saludo/:nombre', (req, res)=> {
   const nombre = req.params.nombre;
-  res.send('hola sigma: '+nombre);
+  res.send('hola siigma: '+nombre);
 });
